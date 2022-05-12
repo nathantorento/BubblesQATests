@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/nathantorento/BubblesQATests#readme",
   "dependencies": {
+    "assert": "^2.0.0",
+    "asserts": "^4.0.2",
     "selenium-webdriver": "^4.1.2"
   }
 }
