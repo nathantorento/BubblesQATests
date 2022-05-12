@@ -42,13 +42,13 @@ async function rememberAudioInput(){
             assert.strictEqual(await driver.findElement(By.css(".Dropdown__Text-sc-1joz9h2-0")).getText(), inputMic);
             console.log("Test successful"); // Announce that test was successful
 
-
         } catch (error) {
         console.log(error);
         console.log("Test not successful");  
         
-    }
+    } 
     // Close browser to signify end of test
+    await driver.sleep(1000);
     driver.quit() 
 }
 

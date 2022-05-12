@@ -1,5 +1,5 @@
 {
-  "name": "BubblesQATests",
+  "name": "bubblesqatests",
   "version": "1.0.0",
   "description": "\"Automated QA Tests for Bubbles\"",
   "main": "rememberAudioInput.js",
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/nathantorento/BubblesQATests.git"
   },
-  "author": "",
+  "author": "Nathan Torento",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/nathantorento/BubblesQATests/issues"
@@ -18,7 +18,10 @@
   "homepage": "https://github.com/nathantorento/BubblesQATests#readme",
   "dependencies": {
     "assert": "^2.0.0",
-    "asserts": "^4.0.2",
     "selenium-webdriver": "^4.1.2"
-  }
+  },
+  "keywords": [
+    "qa",
+    "test"
+  ]
 }
